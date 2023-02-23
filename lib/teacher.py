@@ -20,4 +20,4 @@ class Teacher(User):
                 ]
 
     def teach(self):
-        pass
+        return random.choice(self.knowledge)
